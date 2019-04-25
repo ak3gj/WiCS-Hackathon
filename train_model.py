@@ -7,9 +7,11 @@ faceCascade = cv2.CascadeClassifier(cascPath)
 video_capture = cv2.VideoCapture(0)
 img_counter = 1
 
+"""
 path = os.path.join(self.face_dir, self.face_name)
 if not os.path.isdir(self.path):
     os.mkdir(self.path)
+"""
 
 while True:
     # Capture frame-by-frame
